@@ -1,0 +1,29 @@
+.container {
+  border: 2px solid black;
+  border-radius: 10px;
+  display: grid;
+  grid-template-columns: 40% 30% 30%;
+  height: 30vw;
+  margin:auto;
+  margin-top: 1vh;
+  width: 60vw;
+}
+
+.attacker {
+  grid-column-start: 2;
+  height: 100%;
+  margin-top: 10px
+}
+
+.defender {
+  grid-column-start: 3;
+  height: 100%;
+  margin-top: 10px;
+}
+
+.selector {
+  display: inline;
+  grid-column-start: 1;
+  height: 100%;
+  margin-top: 10px;
+}

@@ -1,0 +1,9 @@
+<div class="container">
+  <img
+    class="hero-image"
+    [ngClass]='{transform: transform}'
+    src='{{ link }}'>
+  <select class="hero-dropdown" [(ngModel)]='link'>
+    <option *ngFor='let hero of element' [value]='hero.heroImage'>{{ hero.heroName }}</option>
+  </select>
+</div>

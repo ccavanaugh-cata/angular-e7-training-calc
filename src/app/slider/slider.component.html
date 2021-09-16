@@ -1,0 +1,17 @@
+<div style="width:25vw" *ngFor='let stat of element'>
+  <div class="label">{{ stat.name }}:</div>
+  <input
+    type="range"
+    min='{{ stat.minValue }}'
+    max='{{ stat.maxValue }}'
+    [(ngModel)]='stat.defaultValue'
+    class='slider {{ stat.iconLink }}'
+    draggable=false
+  >
+  <input
+    class="slider-output"
+    type="number"
+    max='{{ stat.maxValue }}'
+    [(ngModel)]="stat.defaultValue"
+  >
+</div>

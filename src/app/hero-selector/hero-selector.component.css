@@ -1,0 +1,14 @@
+.container {
+  display: inline-block;
+  max-width:50%;
+  text-align: center;
+}
+
+.hero-image {
+  max-height: 25%;
+  width: 100%;
+}
+
+.transform {
+  transform: scaleX(-1);
+}

@@ -1,0 +1,14 @@
+.header-container {
+  border-bottom: 1px solid black;
+  box-shadow: 0px 1px 1px palevioletred;
+  margin-bottom: 1vh;
+  height: 2em;
+}
+
+.title-text {
+  font-family: acumin-pro, sans-serif;
+  font-size: 1.5em;
+  font-style: normal;
+  font-weight: 700;
+  text-align: center;
+}
